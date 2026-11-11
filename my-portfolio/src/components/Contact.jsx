@@ -24,11 +24,12 @@ export default function Contact() {
             <Mail size={16} /> Send Me an Email <ArrowUpRight size={16} />
           </a>
           <a 
-            href="#resume" 
-            className="bg-[#1a1716] border border-white/10 hover:bg-[#26211f] text-white px-6 py-3.5 rounded-xl text-sm font-medium transition flex items-center gap-2"
-          >
-            <FileText size={16} /> Download Resume
-          </a>
+  href="/Taison-Nelson-CV.pdf" 
+  download="Taison-Nelson-CV.pdf"
+  className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-3 rounded-lg transition-all shadow-md"
+>
+  Download CV
+</a>
         </div>
 
         {/* Social Cards Chini zikiwa na Link Sahihi */}

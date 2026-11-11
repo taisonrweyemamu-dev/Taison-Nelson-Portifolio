@@ -34,13 +34,13 @@ export default function Navbar() {
 
         {/* Download CV Button */}
         <div>
-          <a 
-            href="#contact" 
-            onClick={(e) => handleScrollTo(e, 'contact')}
-            className="bg-[#1a1716] hover:bg-[#26211f] border border-white/10 text-white px-5 py-2.5 rounded-xl text-sm font-medium transition shadow-sm flex items-center gap-2 cursor-pointer"
-          >
-            <FileText size={16} /> Download CV
-          </a>
+        <a 
+  href="/Taison-Nelson-CV.pdf" 
+  download="Taison-Nelson-CV.pdf"
+  className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-3 rounded-lg transition-all shadow-md"
+>
+  Download CV
+</a>
         </div>
 
       </div>
