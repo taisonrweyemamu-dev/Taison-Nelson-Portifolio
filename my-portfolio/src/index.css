@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+body {
+  background-color: #121110;
+  color: #e5ded8;
+  font-family: system-ui, -apple-system, sans-serif;
+  scroll-behavior: smooth;
+}
