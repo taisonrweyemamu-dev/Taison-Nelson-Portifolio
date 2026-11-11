@@ -1,8 +1,8 @@
 import React from 'react';
-import project1Img from '../assets/project1.jpg';
-import project2Img from '../assets/project2.jpg';
-import project3Img from '../assets/project3.jpg';
-import project4Img from '../assets/project4.jpg';
+import project1Img from '../assets/Project1.jpg';
+import project2Img from '../assets/Project2.jpg';
+import project3Img from '../assets/Project3.jpg';
+import project4Img from '../assets/Project4.jpg';
 
 
 
