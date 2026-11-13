@@ -19,9 +19,9 @@ export default function Projects() {
     },
     {
       title: 'Poultry Market Link',
-      category: 'chicken farmers connector',
+      category: 'Chicken Farmers Connector',
       description: 'A specialized web application designed to connect broiler chicken farmers directly with buyers. The platform streamlines poultry trading by eliminating middlemen, making it easy to list products, view prices, and manage sales.',
-      tech: ['Html', 'SQLDB', 'REST APIs', 'CSS', 'PHP', 'JavaScript'],
+      tech: ['Html', 'MySQL', 'REST APIs', 'CSS', 'PHP', 'JavaScript'],
       image: project2Img,
       liveDemo: '#',
       github: 'https://github.com/taisonrweyemamu-dev/poultry_market_link'
@@ -37,7 +37,7 @@ export default function Projects() {
     },
        {
       title: 'House Finder ',
-      category: ' Platform',
+      category: 'House Renting Platform',
       description: 'Developed a modern web application for finding, renting, and listing residential properties',
       tech: ['React', 'REST API', 'JavaScript',"HTML", 'Tailwind CSS'],
       image: project4Img,
