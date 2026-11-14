@@ -42,6 +42,8 @@ export default function Skills() {
         </div>
 
         {/* 1. Frontend Section */}
+                   <div data-aos="fade-up" data-aos-duration="1000">
+
         <div className="grid lg:grid-cols-12 gap-6 items-center border-b border-white/10 pb-10">
           <div className="lg:col-span-4">
             <h3 className="text-base font-serif font-medium text-amber-200">
@@ -64,8 +66,11 @@ export default function Skills() {
             ))}
           </div>
         </div>
+        </div>
 
         {/* 2. Backend & Databases Section */}
+                   <div data-aos="fade-up" data-aos-duration="1000">
+
         <div className="grid lg:grid-cols-12 gap-6 items-center border-b border-white/10 pb-10">
           <div className="lg:col-span-4">
             <h3 className="text-base font-serif font-medium text-amber-200">
@@ -88,8 +93,11 @@ export default function Skills() {
             ))}
           </div>
         </div>
+        </div>
 
         {/* 3. Development Tools Section */}
+                   <div data-aos="fade-up" data-aos-duration="1000">
+
         <div className="grid lg:grid-cols-12 gap-6 items-center">
           <div className="lg:col-span-4">
             <h3 className="text-base font-serif font-medium text-amber-200">
@@ -113,6 +121,7 @@ export default function Skills() {
           </div>
         </div>
 
+      </div>
       </div>
       </div>
     </section>
