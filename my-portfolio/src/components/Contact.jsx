@@ -4,6 +4,8 @@ import { Mail, FileText, ArrowUpRight } from 'lucide-react';
 export default function Contact() {
   return (
     <section id="contact" className="py-24 bg-[#100e0d] text-white px-6 border-t border-white/5">
+           <div data-aos="fade-up" data-aos-duration="1000">
+
       <div className="max-w-4xl mx-auto text-center space-y-8">
         
         <div className="space-y-3">
@@ -79,6 +81,7 @@ export default function Contact() {
           © {new Date().getFullYear()} Taison. Built with React & Tailwind CSS.
         </div>
 
+      </div>
       </div>
     </section>
   );

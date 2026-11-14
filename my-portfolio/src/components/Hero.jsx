@@ -5,7 +5,9 @@ import myPhoto from '../assets/picha-yangu.jpg';
 export default function Hero() {
   return (
     <section id="hero" className="min-h-screen flex items-center bg-[#121110] text-[#e5ded8] px-6 sm:px-16 pt-28">
-      <div className="max-w-7xl mx-auto w-full grid lg:grid-cols-12 gap-12 items-center justify-between">
+     
+           <div data-aos="fade-up" data-aos-duration="1000">
+ <div className="max-w-7xl mx-auto w-full grid lg:grid-cols-12 gap-12 items-center justify-between">
         
         {/* Upande wa Kushoto: Maelezo na Social Icons Halisi */}
         <div className="lg:col-span-7 space-y-6">
@@ -98,6 +100,7 @@ export default function Hero() {
           </div>
         </div>
 
+      </div>
       </div>
     </section>
   );

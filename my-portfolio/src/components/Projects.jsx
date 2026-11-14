@@ -48,6 +48,8 @@ export default function Projects() {
 
   return (
     <section id="projects" className="py-24 bg-slate-950 text-white px-4 border-t border-slate-900">
+            <div data-aos="fade-up" data-aos-duration="1000">
+
       <div className="max-w-6xl mx-auto">
         <div className="mb-16">
           <p className="text-blue-400 font-semibold text-xs uppercase tracking-widest mb-2">Hands-On Experience</p>
@@ -109,6 +111,7 @@ export default function Projects() {
             </div>
           ))}
         </div>
+      </div>
       </div>
     </section>
   );

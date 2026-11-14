@@ -27,7 +27,9 @@ export default function Skills() {
 
   return (
     <section id="skills" className="py-20 bg-[#141211] text-white px-6 border-t border-white/5">
-      <div className="max-w-6xl mx-auto space-y-12">
+     
+           <div data-aos="fade-up" data-aos-duration="1000">
+ <div className="max-w-6xl mx-auto space-y-12">
         
         {/* Kichwa cha Juu */}
         <div className="space-y-1">
@@ -111,6 +113,7 @@ export default function Skills() {
           </div>
         </div>
 
+      </div>
       </div>
     </section>
   );

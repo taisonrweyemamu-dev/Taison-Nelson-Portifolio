@@ -13,6 +13,8 @@ export default function Experience() {
 
   return (
     <section id="experience" className="py-24 bg-slate-950 text-white px-4 border-t border-slate-900">
+            <div data-aos="fade-up" data-aos-duration="1000">
+
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl sm:text-4xl font-extrabold mb-3 text-center tracking-tight">Experience</h2>
         <p className="text-gray-400 text-center mb-16">Hands-on experience in building scalable web solutions.</p>
@@ -38,6 +40,7 @@ export default function Experience() {
             </div>
           ))}
         </div>
+      </div>
       </div>
     </section>
   );

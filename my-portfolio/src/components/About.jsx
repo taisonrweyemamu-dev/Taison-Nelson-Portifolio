@@ -4,6 +4,7 @@ import { GraduationCap, MapPin, Briefcase } from 'lucide-react';
 export default function About() {
   return (
     <section id="about" className="py-28 bg-[#ede7de] text-[#1c1917] px-6 transition-colors duration-500">
+      <div data-aos="fade-up" data-aos-duration="1000">
       <div className="max-w-6xl mx-auto space-y-16">
         
         {/* Sehemu ya Juu: Maelezo na Code Box */}
@@ -97,6 +98,7 @@ export default function About() {
           </div>
         </div>
 
+      </div>
       </div>
     </section>
   );
