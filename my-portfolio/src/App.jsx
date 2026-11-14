@@ -14,6 +14,8 @@ export default function App() {
   useEffect(() =>{
     AOS.init({
       duration: 1000,
+      mirror:true,
+      offset:50,
       once: false,
     });
   }, []);
